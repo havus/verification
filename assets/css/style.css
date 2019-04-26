@@ -28,6 +28,10 @@ h1 {
     transform: translateX(-50%);
 }
 
+button {
+    /* width: 75%; */
+}
+
 .btn {
     color: white;
     font-weight: bold;
@@ -35,18 +39,19 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
     border: none !important;
+    margin-left: 25px;
+    display: inline-block;
+    width: 75%;
 }
 .btn.ig {
     background-image: linear-gradient(to right, rgba(228, 131, 46, .9) 0%, rgba(94, 14, 205, .9) 100%);
 }
 .btn.twit {
     background-color: #57A5EC;
-    margin-bottom: 30px;
-
+    
 }
 .btn.fb {
     background-color: #1A3C8F;
-
 }
 
 .svg {
@@ -62,19 +67,20 @@ h1 {
     width: 25px;
 }
 
+.twitter {
+    margin-bottom: 20px;
+}
+
 .exp-wrap{
     position: relative;
+    display: inline-block;
 }
 .exp-wrap img {
     position: relative;
     height: 40px;
-    top: 50%;
-    transform: translateY(-50%);
 }
 .exp {
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     color: red;
     font-weight: bold;
 }
